@@ -1,173 +1,166 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azri Rosmail</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" id="bootstrap-css">
-    <link href="main.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
+    <title>Azri's Humble Home</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body{
+            background: #000428;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
 </head>
-
-<body>
-    <div class="container emp-profile">
-        <div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="profile-img">
-                        <img src="azri.JPG" alt="Profile Picture"/>
-                        <div class="file btn btn-lg btn-primary">Azri Rosmail</div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="profile-head">
-                        <h5>Muhamad Azri Rosmail</h5>
-                        <h6>Web Developer</h6>
-                        <p class="proile-rating">RANKINGS : <span>8/10</span></p>
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <button class="profile-edit-btn" name="btnAddMore">
-                        <i class="fa fa-download"></i>
-                        Resume
-                    </button>
-                    <br>
-                    <small class="text-muted">Not available</small>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="profile-work">
-                        <p>WORK LINK</p>
-                        <a href="https://jommenyumbang.com/ms/home" target="_blank">Jom Menyumbang</a><br/>
-                        <a href="https://ikhlas.fund/ms/home" target="_blank">Yaysan Ikhlas</a><br/>
-                        <a href="https://kitabantu.com/ms/home" target="_blank">Kita Bantu</a><br/>
-                        <a href="https://terrabina.app/" target="_blank">Terrabina</a>
-                        <p>SKILLS</p>
-                        <a href="https://runcloud.io/" target="_blank">Runcloud (Server Management)</a><br/>
-                        <a href="">Web Development</a><br/>
-                        <a href="https://laravel.com/" target="_blank">Laravel (PHP)</a><br/>
-                        <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a><br/>
-                        <a href="https://alpinejs.dev/" target="_blank">AlphineJS</a><br/>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="tab-content profile-tab" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Github / GitLab</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>azrirsml</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Name</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Muhamad Azri Bin Rosmail</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Email</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>md.azrirsml@gmail.com</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Based</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Seremban, Negeri Sembilan</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Profession</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Web Developer / Software Engineer</p>
-                                </div>
-                            </div>
+<body class="max-w-7xl mx-auto py-12 sm:px-6 lg:px-8 flex flex-wrap content-center">
+    <div class="max-w-4xl mx-auto">
+        <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+            <div class="px-4 py-5 sm:px-6">
+                <div class="flex-shrink-0 flex">
+                    <div class="flex items-center">
+                        <div>
+                            <img class="inline-block h-9 w-9 rounded-full" src="azri.png" alt="Profile Picture">
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Experience</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Technerve Technology Solutions</p>
-                                    <p>Aeronerve Unmanned Aerial Solutions</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Hourly Rate</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>10$/hr</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Total Projects</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>230</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Language Proficiency</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Malay - Native</p>
-                                    <p>English - Professional Working</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Availability</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>6 months</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <label>Your Bio</label><br/>
-                                    <p>Your detail description</p>
-                                </div>
-                            </div>
+                        <div class="ml-3">
+                            <h3 class="text-lg leading-6 font-medium text-gray-900">
+                                Muhamad Azri Rosmail
+                            </h3>
+                            <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                                Web Developer
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>           
+
+            <div class="border-t border-gray-200 px-4 py-5 sm:px-6">
+                <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Full name</dt>
+                        <dd class="mt-1 text-sm text-gray-900">Muhamad Azri Bin Rosmail</dd>
+                    </div>
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Email address</dt>
+                        <dd class="mt-1 text-sm text-gray-900">md.azrirsml@gmail.com</dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://www.linkedin.com/in/muhamad-azri-rosmail-777727171/" target="_blank">LinkedIn Profile</a>
+                        </dd>
+                    </div>
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Based</dt>
+                        <dd class="mt-1 text-sm text-gray-900">Seremban, Negeri Sembilan</dd>
+                    </div>
+                    
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Repository</dt>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://github.com/azrirsml" target="_blank">GitHub@azrirsml</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://gitlab.com/azrirsml" target="_blank">GitLab@azrirsml</a>
+                        </dd>
+                    </div>
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Work Link</dt>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://jommenyumbang.com/ms/home" target="_blank">Jom Menyumbang</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://ikhlas.fund/ms/home" target="_blank">Yaysan Ikhlas</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://kitabantu.com/ms/home" target="_blank">Kita Bantu</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://terrabina.app/" target="_blank">Terrabina</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://senangurus.com/" target="_blank">SenangUrus</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://senanglink.com/" target="_blank">SenangLink</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://tajara.my/" target="_blank">Tajara</a>
+                        </dd>
+                        
+                    </div>
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Skills</dt>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://runcloud.io/" target="_blank">Runcloud (Server Management)</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://laravel.com/" target="_blank">Laravel (PHP)</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://alpinejs.dev/" target="_blank">AlphineJS</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://www.mysql.com/" target="_blank">MySQL</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://laravel-livewire.com/" target="_blank">Livewire</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://git-scm.com/" target="_blank">Git</a>
+                        </dd>
+                        
+                    </div>
+                    <div class="sm:col-span-1">
+                        <dt class="text-sm font-medium text-gray-500">Experience</dt>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://technerve.my/" target="_blank">Technerve - Technology Solutions</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://aeronerve.my/" target="_blank">Aeronerve - Unmanned Aerial Solutions</a>
+                        </dd>
+                        <dd class="mt-1 text-sm text-gray-900 hover:text-indigo-500">
+                            <a href="https://armiena.com/" target="_blank">Armiena Group</a>
+                        </dd>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <dt class="text-sm font-medium text-gray-500">
+                            About
+                        </dt>
+                        <dd class="mt-1 text-sm text-gray-900">
+                            Web Developer with over 3 years' experience working in private sectors. Diplomatic, personable, and adept at managing crucial situations. Highly organized, self-motivated, and proficient with different tools. Currently interested in design skills to improve quality, cost and time metrics for web development. Bachelor's degree in software engineering.
+                        </dd>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <dt class="text-sm font-medium text-gray-500">
+                            Attachments
+                        </dt>
+                        <dd class="mt-1 text-sm text-gray-900">
+                            <ul role="list" class="border border-gray-200 rounded-md divide-y divide-gray-200">
+                                <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
+                                    <div class="w-0 flex-1 flex items-center">
+                                        <!-- Heroicon name: solid/paper-clip -->
+                                        <svg class="flex-shrink-0 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <path fill-rule="evenodd" d="M8 4a3 3 0 00-3 3v4a5 5 0 0010 0V7a1 1 0 112 0v4a7 7 0 11-14 0V7a5 5 0 0110 0v4a3 3 0 11-6 0V7a1 1 0 012 0v4a1 1 0 102 0V7a3 3 0 00-3-3z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="ml-2 flex-1 w-0 truncate">
+                                            resume_back_end_developer.pdf
+                                        </span>
+                                    </div>
+                                    <div class="ml-4 flex-shrink-0">
+                                        <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500 line-through">
+                                            Download
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>
